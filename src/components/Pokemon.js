@@ -9,7 +9,6 @@ export function Pokemon({ pokemon }){
       <div className="pokemon_meta">
         <span>{pokemon.maxHP}</span>
         <span>{pokemon.maxCP}</span>
-        
       </div>
       <div className="pokemon_image">
         <img src={pokemon.image} alt={pokemon.name} />
